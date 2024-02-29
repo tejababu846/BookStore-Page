@@ -1,0 +1,188 @@
+/* Default styles */
+.bg-color1 {
+    background-color: #1b1b1b;
+    padding: 5%;
+    animation: slideInUp 2s ease-in-out;
+}
+
+.image1 {
+    height: 20vh;
+    animation: zoomIn 2s ease-in-out;
+}
+
+.head1 {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 3vw;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.card-cont1 {
+    background-color: #e6f6ff;
+    border-radius: 2vw;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.card2 {
+    margin: 3%;
+    animation: slideInLeft 2s ease-in-out;
+}
+
+.head2 {
+    color: #183b56;
+    font-family: "Bree Serif";
+    font-size: 2.5vw;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.descp1 {
+    color: #06070d;
+    font-family: "Bree Serif";
+    font-size: 2.5vw;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.descp2 {
+    color: #183b56;
+    font-family: "Bree Serif";
+    font-size: 1.5vw;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.head3 {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 2.5vw;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.descp3 {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 2vw;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.head10 {
+    margin: 3%;
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 3.5vw;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.card3 {
+    margin-left: 3%;
+    animation: slideInRight 2s ease-in-out;
+}
+
+.image2 {
+    height: 15vh;
+    animation: zoomIn 2s ease-in-out;
+}
+
+.bg-color {
+    background-color: #1b1b1b;
+    height: 100vh;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.sub-image {
+    height: 50vh;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.heading7 {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 3.5vw;
+    margin: 1vw;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.descp7 {
+    color: #9aa5b1;
+    font-family: "Roboto";
+    font-size: 1.5vw;
+    margin: 1vw;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.para7 {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 1.7vw;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.button7 {
+    margin: 2vw;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.button1,
+.button2 {
+    color: white;
+    border-radius: 5px;
+    border-width: 0px;
+    margin: 1vw;
+    cursor: pointer;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.button1 {
+    background-color: orange;
+    height: 3.5vw;
+    width: 8vw;
+}
+
+.button2 {
+    background-color: blue;
+    height: 3.5vw;
+    width: 12vw;
+}
+
+
+@media only screen and (max-width: 576px) {
+
+    .button1,
+    .button2 {
+        height: 10vw;
+        width: 20vw;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    .button1,
+    .button2 {
+        height: 3.5vw;
+        width: 8vw;
+    }
+}
+
+
+/* Keyframe animations */
+@keyframes slideInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-5%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(5%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
